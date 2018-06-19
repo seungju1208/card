@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Happy Birthday, Friend </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	img{width:85%; height:300px; padding: 10px;}
+	.all{width:1000px; margin:auto;}
+	.title{font-family:"comic Sans"; color:#667292;  background-color:#ff6f69; font-size:20pt; text-align: center;}
+	.p{width:35%; height:550px; float:left; background-color: #ffcc5c;color: #3e4444;}
+	.letter{width:65%; height:550px; font-family: "Arial" ; float:left; color:#3e4444; background-color:#ffeead; font-size:14pt; overflow:hidden;}
+	.picture{width:30%; height:200px; padding:10px; box-sizing: border-box;}
+</style>
+</head>
+<body>
+	<script type="text/javascript">
+		function pic1()
+		{
+			document.getElementById("img").src="friend.jpg";
+		}
+ function desplayValue(){
+    var clientName = "min gi";
+    var age = 20;
+    var height = 160;
+    document.getElementById("name").innerHTML=document.getElementById("name").innerHTML+clientName;
+    document.getElementById("age").innerHTML=document.getElementById("age").innerHTML+age;
+    document.getElementById("height").innerHTML=document.getElementById("height").innerHTML+height;
+}
+	</script>
+ 
+	<div class="all">
+	<div class="title">
+	<h1> Happy Birthday, Friend</h1></div>
+
+	<div class="p">
+	<p><img src="party.jpg" alt="freind" id="img"/></p>
+	<button onclick="pic1()"> Click me! </button>
+	
+<p id="name">name:</p>
+
+<p id="age">age:</p>
+
+<p id="height">height:</p>
+<button onclick="desplayValue()">click</button>
+</div>
+<div class="letter">
+
+	<p> Happy birthday, my friend. </p>
+	<p> It has been more than five years since I became friends with you.</p>
+	<p>You are so far away that you don't see much.</p>
+	<p>It's sad. I miss you. My friend</p>
+	<p>Your only birthday once a year. </p>
+	<p>Eat lots of delicious food and get along well until you see it again.</p>
+	<img class="picture" src="a.jpg" alt="cake1"/>
+	<img class="picture" src="b.jpg" alt="cake2"/>
+	<img class="picture" src="c.jpg" alt="cake3"/>
+</div>
+<div>
+</div>
+	
+
+	</body>
+	</html>
+	
